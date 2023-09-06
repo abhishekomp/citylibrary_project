@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Book list:</h1>
+<ol>
+  {% for book in books %}
+  <li>
+    <!--a href="{% url 'book-detail' book.pk %}">{{book.name}}</a:-->
+    <a href="{{ book.get_absolute_url }}">{{book.name}}</a>
+  </li>
+    {% endfor %}
+</ol>
+{% endblock content %}
+
+{% block content1 %}
+<h1>This is another block content</h1>
+{% endblock content1 %}
