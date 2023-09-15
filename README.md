@@ -1,9 +1,10 @@
 
+# Django admin user:
+- admin/admin
+
 # Django Named URL
 
 This project demonstates the usage of named url and its importance in web development
-
-
 
 
 ## Lessons Learned

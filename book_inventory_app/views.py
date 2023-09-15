@@ -19,3 +19,6 @@ def bookView(request, pk):
 
 def redirect_me(self):
   return redirect(reverse('book-list'))
+
+def redirect_to_home(self):
+  return redirect(reverse("index"))
